@@ -4,8 +4,6 @@ function clearDisplay() {
     currentInput = '';
     document.getElementById("display").value = currentInput;
 }
-
-
 const appendToDisplay = (value) => {
     currentInput += value;
     document.getElementById("display").value = currentInput;
